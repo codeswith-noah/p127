@@ -9,7 +9,8 @@ function preload(){
 function setup(){
     canvas = createCanvas(600, 500);
     canvas.center();
-
+    //I added a canvas ID so I could style it to not come up on top of the heading and button
+    canvas.id('myCanvas');
     video = createCapture(VIDEO);
     video.hide();
 }

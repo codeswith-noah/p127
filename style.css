@@ -3,9 +3,10 @@ body{
     background-size:1950px 1080px;
 }
 
-canvas{
+#myCanvas{
     background-color:#0000;
     border: 5px solid white;
     border-radius:20px;
     box-shadow: 5px 5px 5px #73cfd8;
+    margin-top:300px;
 }
